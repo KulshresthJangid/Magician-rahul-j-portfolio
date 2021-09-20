@@ -411,16 +411,21 @@ nav{
     position: absolute;
     visibility: hidden;
 }
-section{
-    overflow: hidden;
-}
 
 .textNumber a{
     text-decoration: none;
     color: black;
 }
 
-
+.footer-contact-section{
+    visibility: hidden;
+}
+.homePage{
+    overflow: hidden;
+}
+.frame-2{
+    overflow: hidden;
+}
 
 @media only screen and (max-width: 600px) {
     nav{
