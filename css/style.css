@@ -109,12 +109,14 @@
 .frame-2{
     position: absolute;
     width: 100%;
-    height: 2980px;
+    height: 1980px;
+    overflow: visible;
     background: #181818;
 }
 
 .heading {
     position: absolute;
+    margin-top: 100px;
 }
 .heading h1 {
     font-size: 126px;
@@ -215,16 +217,16 @@
 } */
 
 .clients {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 754px;
-    background: #EFB01D1A;
-    transform: translate(0px, 950px); 
+    background: white;
+    transform: translate(0px, 1960px); 
     z-index: 0;
 }
 .z{
     position: relative;
-    z-index: 0;
+    z-index: 1;
 }
 .clients-heading{
     position: absolute;
@@ -247,7 +249,7 @@
     height: 350px;
     background: #302E3A;
     margin: 20px;
-
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.6);
 }
 .testimonial-content {
     position: absolute;
@@ -315,11 +317,10 @@
     position: absolute;
 }
 
-.footer{
-    background-color: white;
-    height: 259px;
+/* footer{
+    background-color: rgb(255, 0, 0);
+    height: 289px;
     width: 100%;
-    margin-top: 1270px;
 }
 .footer-heading{
     position: relative;
@@ -338,46 +339,290 @@
 }
 .footer-contacts{
     margin-left: 140px;
+} */
+
+.footer{
+    position: absolute;
+    width: 100%;
+    background-color: #ffffff;
+    transform: translate(0px, 1960px);
+    height: 200px;
+}
+.for-enquiries{
+    
+    width: 50%;
+    transform: translate(100px, 40px);
+}
+.for-enquiries h1{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32px;
+    color: #4B4638;
+}
+.for-enquiries h1 span{
+    color: #EFB01D;
+}
+.footer-text-number p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 13px;
+}
+.footer-icon-call{
+    display: inline-block;
+    transform: translate(100px, 60px);
+}
+.footer-icon-email{
+    display: inline-block;
+    transform: translate(100px, 60px);
+}
+.footer-email-id{
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 13px;
+}
+hr{
+     margin-left: 80px;
+     width: 70%;
+     font-weight: bold;
+ }
+.p-2{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    width: 60%;
+    font-weight: 500;
+    line-height: 24px;
+    margin-left: 76px;
+}
+.p-2 span{
+    font-weight: bold;
+}
+.Contacts-section{
+  margin-top: 150px;  
+}
+.cat-icon{
+    margin-top: 80px;
+    margin-left: 160px;
+}
+nav{
+    position: absolute;
+    visibility: hidden;
 }
 section{
     overflow: hidden;
 }
 
+.textNumber a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
 @media only screen and (max-width: 600px) {
+    nav{
+        width: 100%;
+        position: relative;
+        visibility: visible;
+        background-color: #ffffff;
+        height: 50px;
+    }
+    .nav-bar{
+        display: inline-block;
+    }
+    .logo-asm{
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .phone-icon{
+        float: right;
+    }
+    .phone-icon img{
+        height: 45px;
+    }
+    .email-icon{
+        float: right;
+    }
+    .email-icon img{
+        height: 45px;
+    }
+    .nav-bar-icon{
+        margin-right: 10px;
+    }
     .homePage{
-        height: 550px;
+        height: 950px;
+        background-color: rgb(255, 255, 255);
+        overflow: hidden;
+    }
+    hr{
+        visibility: hidden;
     }
     .ontainer{
         width: 100%;
     }
     .top{
         transform: translate(40px, 10px);
+        visibility: hidden;
     }
     .content{
         position: absolute;
-        margin-left: -450px;
-        margin-top: -80px;
+        transform: translate(-440px, 100px);
+    }
+    .text-heading{
+        position: absolute;
+        margin-top: 230px;
+    }
+    .p-1{
+        position: absolute;
+        margin-top: 540px;
+        margin-left: 88px;
+        width: 367px;
+    }
+    .p-2{
+        position: absolute;
+        margin-left: 84px;
+        margin-top: 560px;
     }
     .content .text-heading h4{
-        font-size: 30px;
+        font-size: 18px;
     }
     .content .text-heading h1{
-        font-size: 61px;
-        color: white;
-        margin-top: 20px;
-        margin-left: 100px;
+        font-size: 56px;
+        color: #4B4638;
+        margin-top: px;
+        margin-left: 90px;
     }   
-    .text-paragraph{
-        width: 100%;
-    }
     .text-paragraph p {
-        text-align: center;
-        color: #f7e5bb;
-        margin-top: -40px;
-        margin-left: 6px;
+        position: absolute;
+        color: #4B4638;
     }
     .rahul-image img{
-        height: 550px;
+        height: 511px;
         width: 100%;
+    }
+    .icon-phone{
+        transform: translate(3px, -12px);
+    }
+    .textNumber{
+        font-size: 16px;
+    }
+    .Contacts-section{
+        transform: translate(0px, 540px);
+    }
+    .icon-email{
+        transform: translate(3px, 2px);
+    }
+    .frame-2{
+        height: 2250px;
+        width: 100%;
+    }
+    .heading h1{
+        transform: translate(-80px, -90px);
+        line-height: 34px;
+        font-size: 56px;
+    }
+    .punchline h1{
+        font-size: 18px;
+        font-weight: bold;
+        transform: translate(-790px, -450px);
+    }
+    .right-side-cards{
+        transform: translate(-371px, -440px);
+    }
+    .card-1{
+        margin-top: 60px;
+    }
+    .left-side-cards{
+        transform: translate(-372px, -440px);
+    }
+    .z{
+        z-index: 1;
+        position: relative;
+        
+    }
+    .clients{
+        z-index: -1;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        transform: translate(0px, 2230px);
+        height: 1040px;
+    }
+    #heading{
+        background-color: rgb(255, 255, 255);
+    }
+    .cat-icon img{
+        height: 130px;
+        transform: translate(-230px, 20px);
+    }
+    .clients-heading{
+        position: relative;
+        margin: 0;
+        background-color: #ffffff;
+    }
+    .clients-heading h1{
+        transform: translate(-850px, -60px);
+        text-align: left;
+        font-size: 45px;
+        line-height: 40px;
+        color: 
+        #4B4638;
+    }
+    .carousel{
+        width: 390px;
+        height: 740px;
+        transform: translate(0px, -140px);
+        overflow: hidden;
+    }
+    .testimonila{
+        width: 268px;
+        height: 688px;
+        transform: translate(-113px);
+        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.6);
+    }
+    .testimonila-2{
+        visibility: hidden;
+    }
+    .one-1 img{
+        height: 350px;
+    }
+    .two-2{
+        position: absolute;
+        width: 268px;
+        transform: translate(-10px, 340px);
+    }
+    .carousel-control-prev{
+        position: absolute;
+        transform: translate(-6px, -00px);
+    }
+    .carousel-control-next{
+        position: absolute;
+        transform: translate(-10px, -00px);
+    }
+    .footer{
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+        transform: translate(0px, 2240px);
+    }
+    .for-enquiries{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        transform: translate(0px, 0px);
+    }
+    .for-enquiries h1{
+        text-align: center;
+        font-size: 18px;
+    }
+    .footer-contact-section{
+        visibility: hidden;
+    }
+    .homePage{
+        overflow: hidden;
+    }
+    .frame-2{
+        overflow: hidden;
     }
 }
