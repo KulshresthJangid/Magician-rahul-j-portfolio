@@ -428,6 +428,9 @@ nav{
 }
 
 @media only screen and (max-width: 600px) {
+    *{
+        outline: 1px solid red;
+       }
     nav{
         width: 100%;
         position: relative;
@@ -523,7 +526,7 @@ nav{
     }
     .frame-2{
         height: 2250px;
-        width: 100%;
+        width: 390px;
     }
     .heading h1{
         transform: translate(-80px, -90px);
@@ -555,6 +558,7 @@ nav{
         width: 100%;
         transform: translate(0px, 2230px);
         height: 1040px;
+        overflow: hidden;
     }
     #heading{
         background-color: rgb(255, 255, 255);
@@ -611,6 +615,7 @@ nav{
         height: 100px;
         background-color: rgb(255, 255, 255);
         transform: translate(0px, 2240px);
+        width: 390px;
     }
     .for-enquiries{
         width: 100%;
@@ -629,5 +634,11 @@ nav{
     }
     .frame-2{
         overflow: hidden;
+    }
+    .sr{
+        width: 390px;
+    }
+    body{
+        overflow-x: hidden;
     }
 }
