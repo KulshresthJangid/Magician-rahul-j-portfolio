@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" >
-    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/bdac0c964a.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="/css/style2.scss">
@@ -15,8 +15,15 @@
 <body>
     <nav>
         <div class="nav-bar logo-asm"><img src="/Logo.svg" alt=""></div>
-        <div class="nav-bar nav-bar-icon phone-icon"><a href="tel:+91 85610 28772"><img src="/Icons/india.png" alt=""></a></div>
-        <div class="nav-bar nav-bar-icon email-icon"><a href="tel:+971-585157988"><img src="/Icons/UAE.png" alt=""></a></div>
+        <div class="dropdown nav-bar-content">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="/Icons/Phone.png" alt="">
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="tel:+91 85610 28772">IND +91 85610 28772</a></li>
+              <li><a class="dropdown-item" href="tel:+971-585157988">UAE +971-585157988</a></li>
+            </ul>
+        </div>
         <div class="nav-bar nav-bar-icon email-icon"><a href="mailto:rjangir.jangir@gmail.com"><img src="/Icons/email.png" alt=""></a></div>
     </nav>
     <section class="homePage">
@@ -248,24 +255,6 @@
             </a>
           </div>
     </section>
-        <!-- <section class="footer">
-            <div class="footer-heading">
-                <h1>For Enquiries, Get in touch <span>Now!</span></h1>
-            </div>
-            <div class="Contacts-section">
-                <div class="contact-number footer-contacts">
-                    <div class="icon-phone number"><i class="fas fa-phone"></i></div>
-                    <div class="textNumber number">IND +91 85610 28772, UAE +971-585157988</div>
-                </div>
-                <div class="Email-section footer-contacts">
-                    <div class="icon-email email"><i class="fas fa-envelope"></i></div>
-                    <div class="Email-id email">rjangir.jangir@gmail.com</div>
-                </div>
-                <div class="top bottom">
-                    <div class="domain yup">AmericanStreetMagic.com</div>
-                </div>
-            </div>
-        </section> -->
         <section class="footer"> 
             <div class="for-enquiries">
                 <h1>For Enquiries, Get in touch <span>Now!</span></h1>
@@ -284,6 +273,7 @@
     
     <!-- JavaScript Bundle with Popper -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     

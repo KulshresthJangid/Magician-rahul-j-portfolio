@@ -412,11 +412,25 @@ nav{
     visibility: hidden;
 }
 
+.nav-bar-content{
+    display: inline-block;
+}
 .textNumber a{
     text-decoration: none;
     color: black;
 }
-
+.dropdown button{
+    transform: translate(240px, 0px);
+    background-color: white;
+    border: none;
+}
+.dropdown button:active{
+    background: white;
+    border: none;
+}
+.dropdown{
+    position: absolute;
+}
 .footer-contact-section{
     visibility: hidden;
 }
@@ -450,10 +464,11 @@ nav{
         height: 45px;
     }
     .email-icon{
-        float: right;
+        transform: translate(-70px, 5px);
+        z-index: 1;
     }
     .email-icon img{
-        height: 45px;
+        height: 35px;
     }
     .nav-bar-icon{
         margin-right: 10px;
