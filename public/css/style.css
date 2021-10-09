@@ -52,7 +52,7 @@
 .text-paragraph {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
-    width: 60%;
+    width: 50%;
     font-weight: 500;
     margin-left: 80px;
     margin-top: 400px;
@@ -483,7 +483,12 @@ nav{
     }
     .ontainer{
         width: 100%;
+        
     }
+    .content{
+        transform: translate(-90px, 0px);
+    }
+    
     .top{
         transform: translate(40px, 10px);
         visibility: hidden;
@@ -672,7 +677,7 @@ nav{
         float: right;
     }
     .email-icon img{
-        height: 45px;
+        height: 38px;
     }
     .nav-bar-icon{
         margin-right: 10px;
@@ -694,7 +699,7 @@ nav{
     }
     .content{
         position: absolute;
-        transform: translate(-440px, 100px);
+        transform: translate(-460px, 100px);
     }
     .text-heading{
         position: absolute;
@@ -702,9 +707,9 @@ nav{
     }
     .p-1{
         position: absolute;
-        margin-top: 540px;
+        margin-top: 520px;
         margin-left: 88px;
-        width: 367px;
+        width: 337px;
     }
     .p-2{
         position: absolute;
@@ -741,7 +746,7 @@ nav{
         transform: translate(3px, 2px);
     }
     .frame-2{
-        height: 2250px;
+        height: 1950px;
         width: 390px;
     }
     .heading h1{
