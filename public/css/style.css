@@ -651,7 +651,7 @@ nav{
         overflow: hidden;
     }
 }
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 380px) {
     nav{
         width: 100%;
         position: relative;
@@ -760,7 +760,7 @@ nav{
         transform: translate(-790px, -450px);
     }
     .right-side-cards{
-        transform: translate(-371px, -440px);
+        transform: translate(-365px, -440px);
     }
     .card-1{
         margin-top: 60px;
@@ -777,7 +777,7 @@ nav{
         z-index: -1;
         background-color: rgb(255, 255, 255);
         width: 100%;
-        transform: translate(0px, 2230px);
+        transform: translate(0px, 2000px);
         height: 1040px;
         overflow: hidden;
     }
@@ -804,7 +804,7 @@ nav{
     .carousel{
         width: 390px;
         height: 740px;
-        transform: translate(0px, -140px);
+        transform: translate(10px, -140px);
         overflow: hidden;
     }
     .testimonila{
