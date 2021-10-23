@@ -863,3 +863,89 @@ nav{
         overflow-x: hidden;
     }
 }
+
+@media only screen and (max-width: 990px) {
+    .homePage{
+        width: 972px;
+    }
+    .rahul-image{
+        width: 560px;
+    }
+    .rahul-image img{
+        height: 630px;
+        width: 90%;
+    }
+    .text-heading{
+        transform: translate(-50px, -90px);
+    }
+    .text-heading h1{
+        font-size: 70px;
+    }
+    .p-1{
+        transform: translate(-50px, -150px);
+        width: 70%;
+    }
+    .p-2{
+        transform: translate(-50px, -190px);
+    }
+    hr{
+        transform: translate(-45px, -80px);
+        width: 50%;
+    }
+    .Contacts-section{
+        transform: translate(-45px, -200px);
+    }
+    .icon-phone{
+        transform: translate(-2px, -10px);
+    }
+    .content{
+        transform: translate(-63px, 0px);
+    }
+    .content{
+        transform: translate(-4px, 0px);
+    }
+    body{
+        /* overflow-x: hidden; */
+    }
+    .frame-2{
+        width: 972px;
+        height: 1560px;
+    }
+    .heading h1 {
+        font-size: 70px;
+        transform: translate(-40px, -50px);
+        line-height: 40px;
+    }
+    .punchline h1{
+        font-size: 30px;
+        transform: translate(-400px, -300px);
+    }
+    .right-side-cards{
+        transform: translate(-280px, -230px);
+    }
+    .left-side-cards{
+        transform: translate(-240px, -70px);
+    }
+    .clients{
+        transform: translate(0px, 1550px);
+    }
+    .cat-icon{
+        transform: translate(-140px, -0px);
+    }
+    .of{
+        transform: translate(-400px, 0px);
+    }
+    
+    .testimonila{
+        transform: translate(40px, 0px);
+    }
+    .client-review{
+        width: 280px;
+    }
+    .venue-location .venue-location-name{
+        
+        position: absolute;
+        width: 200px;
+        transform: translate(20px, -6px);
+    }
+}
